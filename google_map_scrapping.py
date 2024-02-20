@@ -71,5 +71,5 @@ def save_to_csv(data,filename):
 start_browser()
 search_place("software company in Bangalore")
 links = scroll_and_collect_links()
-save_to_csv(links,filename="sta"+".csv")
+save_to_csv(links,filename="companies.csv")
 driver.quit()
